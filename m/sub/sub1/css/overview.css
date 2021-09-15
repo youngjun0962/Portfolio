@@ -1,0 +1,236 @@
+@charset "utf-8";
+
+main {
+    width: 100%;
+    height: 450px;
+    background: url(../img/2_main/main_bg.png) no-repeat center/cover;
+    position: relative;
+    margin-bottom: 80px;
+}
+
+main .main_wrap {
+    width: 96%;
+    margin: 0 auto;
+    padding: 140px 0 0;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    bottom: -50px;
+    opacity: 0;
+}
+
+.main_wrap .main_title {
+    font: 600 28px 'NanumSquare', sans-serif;
+    margin-bottom: 10px;
+}
+
+.main_wrap .main_txt1 {
+    font: 600 16px/26px 'NanumSquare', sans-serif;
+    transform: skew(-0.03deg);
+    margin-bottom: 30px;
+}
+
+.main_txt1 span {
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.main_wrap p {
+    font: 600 18px 'NanumSquare', sans-serif;
+}
+
+.main_wrap .main_txt2 .txt_gold {
+    line-height: 40px;
+}
+
+/* main *************************************************/
+
+section #better {
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    background: url(../img/3_section1/earth.png) no-repeat bottom;
+    color: #fff;
+    margin-bottom: 80px;
+}
+
+#better .better_title {
+    width: 96%;
+    margin: 0 auto;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 26px;
+    color: #000;
+    margin-bottom: 120px;
+}
+
+#better p {
+    width: 96%;
+    margin: 0 auto;
+    font: 400 14px/24px 'NanumSquare', sans-serif;
+    transform: skew(-0.03deg);
+    color: #fff;
+    word-break: keep-all;
+    opacity: 0;
+}
+
+/* #better *************************************************/
+
+section #history {
+    width: 96%;
+    margin: 0 auto 80px;
+    text-align: center;
+}
+
+#history .history_title {
+    width: 100%;
+    font: 900 25px/40px 'Cormorant Garamond', serif;
+    margin-bottom: 30px;
+    letter-spacing: 4px;
+}
+
+.history_wrap .heading {
+    width: 100%;
+    font: 600 18px/24px 'NanumSquare', sans-serif;
+    margin-bottom: 10px;
+}
+
+.history_wrap .history_txt::before {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 20px;
+    margin: 0 auto 10px;
+    background-color: #e6cb83;
+    transition: all .5s;
+}
+
+.history_wrap .history_txt:hover::before {
+    transform: rotate(90deg);
+}
+
+.history_wrap .history_txt {
+    width: 100%;
+    /* height: 235px; */
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.history_wrap .history_txt:hover img {
+    opacity: 0;
+}
+
+.history_txt p {
+    width: 100%;
+    height: 280px;
+    font: 400 14px/20px 'NanumSquare', sans-serif;
+    transform: skew(-0.03deg);
+    border: 3px solid #888;
+    box-sizing: border-box;
+    word-break: keep-all;
+}
+
+.history_txt .synopsis1 {
+    padding: 10px 10px 10px;
+}
+
+.history_txt .synopsis2 {
+    padding: 20px 10px 10px;
+}
+
+.history_txt .synopsis3 {
+    padding: 30px 10px 10px;
+}
+
+.history_txt img {
+    width: 100%;
+    height: 280px;
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    transition: all .8s;
+}
+
+/* #history ***********************************************************/
+
+section #giovanni {
+    width: 100%;
+    height: 250px;
+    background: url(../img/5_section3/giovanni.png) no-repeat center/cover;
+    position: relative;
+    margin-bottom: 80px;
+}
+
+#giovanni .gio_wrap {
+    width: 70%;
+    padding-left: 6%;
+    box-sizing: border-box;
+    position: absolute;
+    word-break: keep-all;
+    top: 30px;
+    font: 400 13px/20px 'NanumSquare', sans-serif;
+    color: #fff;
+    transform: skew(-0.03deg);
+    opacity: 0;
+}
+
+.gio_wrap .gio_txt1 {
+    margin-bottom: 20px;
+}
+
+.gio_wrap .gio_txt2 {
+    font-size: 14px;
+}
+
+.gio_txt2 span {
+    font-size: 16px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+/* #giovanni ***********************************************************/
+
+section #brands {
+    width: 96%;
+    margin: 0 auto 80px;
+}
+
+#brands .brands_title {
+    text-align: center;
+    font: 900 25px/40px 'Cormorant Garamond', serif;
+}
+
+#brands .brands_title::after {
+    content: "";
+    display: block;
+    width: 160px;
+    height: 3px;
+    margin: 0 auto 30px;
+    background-color: #e6cb83;
+}
+
+#brands .brands_slide {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.brands_slide .slider {
+    width: 4800px;
+    position: relative;
+}
+
+.slider li {
+    float: left;
+    width: 320px;
+    height: 120px;
+    position: relative;
+}
+
+.slider li img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all .6s;
+}

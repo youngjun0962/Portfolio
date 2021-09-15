@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+footer {
+    width: 100%;
+    background-color: #2f2722;
+    border-top: 1px solid #888;
+    padding-bottom: 30px;
+}
+
+footer #footer_top {
+    width: 100%;
+    height: 70px;
+    /* padding: 0 2%; */
+    box-sizing: border-box;
+    border-bottom: 1px solid #888;
+    margin-bottom: 30px;
+    /* overflow: hidden; */
+}
+
+#footer_top .footer_logo {
+    width: 50%;
+    height: 70px;
+    float: left;
+    border-right: 1px solid #888;
+    box-sizing: border-box;
+    padding: 0 2%;
+}
+
+.footer_logo img {
+    width: 95px;
+    display: block;
+    margin-top: 28px;
+}
+
+#footer_top .family_wrap {
+    width: 50%;
+    height: 70px;
+    padding: 0 2%;
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+}
+
+.family_wrap .family_title {
+    font: 400 13px/70px 'NanumSquare', sans-serif;
+    transform: skew(-0.03deg);
+    color: #fff;
+}
+
+.family_title img {
+    width: 15px;
+    height: 15px;
+    margin-top: 27px;
+    float: right;
+    vertical-align: middle;
+    text-align: right;
+    cursor: pointer;
+}
+
+.family_wrap .family_site {
+    width: 100%;
+    padding: 10px 0 10px 4%;
+    box-sizing: border-box;
+    background-color: rgba(47, 39, 34, 0.9);
+    position: absolute;
+    left: 0;
+    bottom: 70px;
+    display: none;
+}
+
+.family_site li {
+    line-height: 25px;
+    transform: skew(-0.03deg);
+}
+
+.family_site li a {
+    color: #fff;
+    font: 400 14px/26px 'NanumSquare', sans-serif;
+}
+
+footer #footer_bottom_left {
+    clear: both;
+    width: 96%;
+    margin: 0 2% 10px;
+}
+
+#footer_bottom_left .contact {
+    margin-bottom: 10px;
+}
+
+.footer_contact a {
+    display: block;
+    color: #fff;
+    font: 600 13px/23px 'NanumSquare', sans-serif;
+    transform: skew(-0.03deg);
+    margin-right: 15px;
+    float: left;
+}
+
+#footer_bottom_left .ferrero_address p {
+    margin-bottom: 10px;
+    font: 400 13px 'NanumSquare', sans-serif;
+    transform: skew(-0.03deg);
+}
+
+#footer_bottom_left .ferrero_address address {
+    font-style: normal;
+    color: #fff;
+    word-break: keep-all;
+    font: 400 13px/23px 'NanumSquare', sans-serif;
+    transform: skew(-0.03deg);
+}
+
+footer #copyright {
+    width: 100%;
+    padding: 0 2%;
+    box-sizing: border-box;
+}
+
+#copyright p {
+    width: 100%;
+    color: #fff;
+    font: 400 13px/24px 'NanumSquare', sans-serif;
+    transform: skew(-0.03deg);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#copyright .trust {
+    width: 150px;
+}

@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.txt_red {
+    color: #f00;
+}
+
+.txt_gold {
+    color: #e6cb83;
+}
+
+.btn_link {
+    width: 79px;
+    display: inline-block;
+    color: #fff;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e6cb83;
+    font: 500 14px 'NanumSquare', sans-serif;
+    transition: all .3s;
+}
+/* 
+.btn_link:hover {
+    font-weight: 600;
+    color: #000;
+    width: 200px;
+} */
